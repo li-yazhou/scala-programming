@@ -1,13 +1,13 @@
+package org.patch.scalabase.lang
+
 /**
   * <p>Description: </p>
   *
-  * @author lyz
-  * @since 2018/6/24 10:11
-  * @version 0.0.1
+  * Author: lyz
+  * Date: 2018/6/24 10:11
   */
 object HelloWorld {
     def main(args: Array[String]): Unit = {
         println("hello world")
     }
-
 }
