@@ -1,4 +1,4 @@
-package org.patch.scalabase.classlearning
+package org.alpha.scalabase.classlearning
 
 /**
   * <p>Description: </p>
@@ -13,5 +13,7 @@ object CounterTest {
         counter.increment()
         println("current = " + counter.current)
     }
+
+
 
 }
