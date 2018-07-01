@@ -1,12 +1,14 @@
 package org.alpha.scalabase.classlearning
 
+import scala.beans.BeanProperty
+
 /**
   * <p>Description: </p>
   *
   * Author: lyz
   * Date: 2018/6/30 17:59
   */
-class Person {
+class PersonField {
 
     /**
       * Scala生成面向JVM的类，
@@ -26,4 +28,24 @@ class Person {
             println("new age must be bigger than old age.")
         }
     }
+
+    /**
+      * 只带getter方法的属性
+      */
+    val IdCart = "412702xxxxxxxxx"
+
+
+    /**
+      * 没有getter和setter方法的属性
+      */
+    private[this] var innerAttr = "this is a inner field, without getter and setter"
+
+
+    /**
+      * 生成Java规范版本的getter和setter方法
+      */
+    @BeanProperty
+    var address: String = "beijing"
+    // var address: String = _
+
 }

@@ -1,0 +1,33 @@
+package org.alpha.scalabase.classlearning
+
+import scala.beans.BeanProperty
+
+/**
+  * <p>Description: </p>
+  *
+  * Author: lyz
+  * Date: 2018/6/30 18:15
+  */
+object PersonFieldTest {
+
+    def main(args: Array[String]): Unit = {
+        var zz = new PersonField
+        println("age = " + zz.age)
+
+        // 调用 age_=(-1)方法
+        zz.age = -1
+        // 调用 age() 方法
+        println("age = " + zz.age)
+
+        // 调用 age_=(10)方法
+        zz.age = 10
+        // 调用 age() 方法
+        println("age = " + zz.age)
+
+
+        println("address = " + zz.getAddress)
+        zz.setAddress("zhengzhou")
+        println("address = " + zz.getAddress)
+
+    }
+}
