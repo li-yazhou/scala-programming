@@ -1,6 +1,5 @@
 package org.alpha.scalabase.classlearning
 
-import scala.beans.BeanProperty
 
 /**
   * <p>Description: </p>
@@ -11,7 +10,7 @@ import scala.beans.BeanProperty
 object PersonFieldTest {
 
     def main(args: Array[String]): Unit = {
-        var zz = new PersonField
+        val zz = new PersonField
         println("age = " + zz.age)
 
         // 调用 age_=(-1)方法
