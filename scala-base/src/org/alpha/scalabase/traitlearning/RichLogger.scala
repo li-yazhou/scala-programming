@@ -10,6 +10,8 @@ trait RichLogger {
 
     def log(msg: String)
 
+    def debug(msg: String) { log(s"DEBUG: $msg") }
+
     def info(msg: String) { log(s"INFO: $msg")}
 
     def warn(msg: String) { log(s"WARN: $msg")}
