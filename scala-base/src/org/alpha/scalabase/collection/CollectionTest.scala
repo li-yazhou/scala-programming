@@ -57,7 +57,7 @@ object CollectionTest {
       *
       */
     def testSet(): Unit = {
-        val set = Set(5, 2, 3, 1, 4)
+        var set = Set(5, 2, 3, 1, 4)
         println("set = " + set)
 
         val newSet = set + 1
@@ -67,6 +67,9 @@ object CollectionTest {
         println("set contains 0 = " + (set contains 0))
         println("set contains 0 = " + (set contains 1))
         println("Set(5, 2) subsetOf set = " + (Set(5, 2) subsetOf set))
+
+        set -= 4
+        println("set = " + set)
 
 
     }
