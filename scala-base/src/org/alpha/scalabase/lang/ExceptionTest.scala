@@ -9,9 +9,6 @@ package org.alpha.scalabase.lang
 object ExceptionTest {
 
     def main(args: Array[Int]): Unit = {
-
+        println("test")
     }
-
-
-
 }

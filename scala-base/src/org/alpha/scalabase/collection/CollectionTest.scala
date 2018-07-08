@@ -54,7 +54,7 @@ object CollectionTest {
 
 
     /**
-      *
+      * Set，集
       */
     def testSet(): Unit = {
         var set = Set(5, 2, 3, 1, 4)
@@ -70,9 +70,9 @@ object CollectionTest {
 
         set -= 4
         println("set = " + set)
-
-
     }
+
+
 
 
 
