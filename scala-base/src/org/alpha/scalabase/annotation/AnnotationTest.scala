@@ -30,11 +30,11 @@ class AnnotationTest {
         0.0
     }
 
-   @native
+    @native
     def win32RegKeys(root: Int, path: String): Array[String]
 
 
-    @Cloneable class Employee {}
+    /* @Cloneable class Employee {}*/
 
     class Book {
         @throws(classOf[IOException]) def read(filename: String): Unit = {
