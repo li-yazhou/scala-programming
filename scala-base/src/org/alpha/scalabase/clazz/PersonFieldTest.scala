@@ -1,4 +1,4 @@
-package org.alpha.scalabase.classlearning
+package org.alpha.scalabase.clazz
 
 
 /**

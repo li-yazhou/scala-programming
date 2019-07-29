@@ -7,7 +7,7 @@
   * Date: 2018/7/1 16:39
   */
 
-package org.alpha.scalabase.classlearning {
+package org.alpha.scalabase.clazz {
 
     class PackageTest {
 
