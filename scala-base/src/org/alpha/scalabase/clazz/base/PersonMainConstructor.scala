@@ -1,4 +1,4 @@
-package org.alpha.scalabase.clazz
+package org.alpha.scalabase.clazz.base
 
 import scala.beans.BeanProperty
 

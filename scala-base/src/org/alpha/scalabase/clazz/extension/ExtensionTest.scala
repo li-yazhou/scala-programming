@@ -1,4 +1,4 @@
-package org.alpha.scalabase.clazz
+package org.alpha.scalabase.clazz.extension
 
 /**
   * <p>Description: </p>

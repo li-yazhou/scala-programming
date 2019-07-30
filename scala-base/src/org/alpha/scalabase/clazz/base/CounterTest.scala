@@ -1,4 +1,4 @@
-package org.alpha.scalabase.clazz
+package org.alpha.scalabase.clazz.base
 
 /**
   * <p>Description: </p>
@@ -19,8 +19,13 @@ object CounterTest {
     // 一般当方法修改成员变量（改值器）时，使用bracket
     // 当方法是取值器时，不使用bracket
     counter.increment()
-    val currVal = counter.current
+    var currVal = counter.current
     println(s"currVal = $currVal")
+
+    currVal = counter.miniCurrentWithoutBracket
+    println(s"currVal = $currVal")
+
+    currVal = counter.simpleCurrentWithoutBracket
   }
 
 
