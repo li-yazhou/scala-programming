@@ -10,7 +10,7 @@ object ObjectApply {
   def main(args: Array[String]): Unit = {
 
     // 使用构造方法创建对象
-    var mac = new Computer(1000.1)
+    var mac = new Computer(id = 1, initialPrice = 1000.1)
     // 使用类的apply方法创建对象，比使用构造方法创建对象省略了关键字new
     var thinkPad = Computer(2000.2)
 
@@ -24,7 +24,7 @@ object ObjectApply {
 }
 
 
-class Computer private (val id: Int, initialPrice: Double) {
+class Computer(val id: Int, initialPrice: Double) {
 
   private var price = initialPrice
 
