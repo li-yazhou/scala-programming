@@ -7,8 +7,8 @@
   * Date: 2018/7/1 16:39
   */
 
-package org.alpha.scalabase.clazz.pkg
+package org.alpha.scalabase.pkg
 
 class PackageTest {
 
-    }
+}
