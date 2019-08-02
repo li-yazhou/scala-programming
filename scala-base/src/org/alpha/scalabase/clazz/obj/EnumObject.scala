@@ -15,9 +15,7 @@ object TrafficLight extends Enumeration {
   val YELLOW = Value(20, "yellow light")
   val GREEN = Value("green light") // id = 21
 
-
 }
-K
 
 
 object MainForEnumObject {
